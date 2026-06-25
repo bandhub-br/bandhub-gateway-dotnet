@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandHub.Gateway", "BandHub.Gateway\BandHub.Gateway.csproj", "{5E1B4D72-C4E2-496C-8D78-223AE72EF6FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9A3F675C-77E4-4BE2-93A0-3C757CE1A8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandHub.Gateway.UnitTests", "tests\BandHub.Gateway.UnitTests\BandHub.Gateway.UnitTests.csproj", "{C196AEF7-C248-41FB-863A-8D46A1BE1117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E1B4D72-C4E2-496C-8D78-223AE72EF6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1B4D72-C4E2-496C-8D78-223AE72EF6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1B4D72-C4E2-496C-8D78-223AE72EF6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1B4D72-C4E2-496C-8D78-223AE72EF6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C196AEF7-C248-41FB-863A-8D46A1BE1117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C196AEF7-C248-41FB-863A-8D46A1BE1117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C196AEF7-C248-41FB-863A-8D46A1BE1117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C196AEF7-C248-41FB-863A-8D46A1BE1117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C196AEF7-C248-41FB-863A-8D46A1BE1117} = {9A3F675C-77E4-4BE2-93A0-3C757CE1A8D1}
+	EndGlobalSection
+EndGlobal

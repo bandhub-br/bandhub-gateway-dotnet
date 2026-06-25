@@ -1,0 +1,19 @@
+# Ignore Visual Studio artifacts
+.vs/
+bin/
+obj/
+TestResults/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Build results
+*.dll
+*.exe
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
