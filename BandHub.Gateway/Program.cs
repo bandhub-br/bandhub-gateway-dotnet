@@ -1,5 +1,4 @@
 using System.Threading.RateLimiting;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -125,12 +124,6 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services
-    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer();
-
-builder.Services.AddAuthorization();
-
-builder.Services
     .AddReverseProxy()
     .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
 
@@ -173,10 +166,6 @@ app.Use(async (context, next) =>
 app.UseRouting();
 
 app.UseCors();
-
-app.UseAuthentication();
-
-app.UseAuthorization();
 
 app.UseRateLimiter();
 
